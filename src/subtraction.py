@@ -3,5 +3,5 @@ def sub(a, b):
     return a - b
 
 def test_add():
-    assert add(2, 1) == 1
-    assert add(1, -1) == 2
+    assert sub(2, 1) == 1
+    assert sub(1, -1) == 2
